@@ -66,6 +66,76 @@
     z-index: 2;
 }
 
+/* The global section tabs. */
+#portal-globalnav {
+    background-color: transparent;
+    padding: 0em 0em 0em 2em;
+    white-space: nowrap;
+    list-style: none;
+    margin: 0;
+    height: auto;
+    line-height: normal;
+}
+#portal-globalnav li {
+    display: inline;
+}
+#portal-globalnav li a {
+    /* The normal, unselected tabs. They are all links */
+    background-color: transparent;
+    border-color: &dtml-globalBorderColor;;
+    border-width: &dtml-borderWidth;;
+    border-style: &dtml-borderStyle; &dtml-borderStyle; none &dtml-borderStyle;;
+    color: &dtml-globalFontColor;;
+    height: auto;
+    margin-right: 0.5em;
+    padding: 0em 1.25em;
+    text-decoration: none;
+    text-transform: &dtml-textTransform;;
+}
+#portal-globalnav li.selected a {
+    /* The selected tab. There's only one of this */
+    background-color: &dtml-globalBackgroundColor;;
+    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+    border-bottom: &dtml-globalBackgroundColor; &dtml-borderWidth; &dtml-borderStyle;;
+    color: &dtml-globalFontColor;;
+}
+#portal-globalnav li a:hover {
+    background-color: &dtml-globalBackgroundColor;;
+    border-color: &dtml-globalBorderColor;;
+    border-bottom-color: &dtml-globalBackgroundColor;;
+    color: &dtml-globalFontColor;;
+}
+
+/* Personal tools */
+
+#portal-personaltools .portalUser {
+    background: transparent url(&dtml-portal_url;/user.gif) center left no-repeat;
+    padding-left: 18px;
+}
+#portal-personaltools .portalNotLoggedIn {
+    /* Used on all descriptions relevant to those not logged in */
+    color: &dtml-fontColor;;
+    padding: 0;
+    background: transparent;
+    background-image: none;
+}
+#portal-personaltools li {
+    color: &dtml-globalFontColor;;
+    margin-left: 1em;
+    display: inline;
+}
+#portal-personaltools li a {
+    text-decoration: none;
+    color: &dtml-globalFontColor;;
+}
+
+/* Tweaks */
+
+#portal-personaltools-wrapper { 
+    float: right;
+    margin-right: 40px;
+}
+
 /* YOUR CSS RULES STOP HERE */
 
 /* </dtml-with> */
