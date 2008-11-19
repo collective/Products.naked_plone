@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="Products.naked_plone.various"
+               version="20081119-01"
+               handler="Products.naked_plone.setuphandlers.setupVarious"
+               title="Naked Plone Theme: miscellaneous import steps">
+    <dependency step="skins" />
+    Various import steps that are not handled by GS import/export
+    handlers.
+  </import-step>
+</import-steps>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Naked Plone Theme">
+
+ <object name="Products_naked_plone_custom_images"
+    meta_type="Filesystem Directory View"
+    directory="Products.naked_plone:skins/Products_naked_plone_custom_images"/>
+ <object name="Products_naked_plone_custom_templates"
+    meta_type="Filesystem Directory View"
+    directory="Products.naked_plone:skins/Products_naked_plone_custom_templates"/>
+ <object name="Products_naked_plone_styles"
+    meta_type="Filesystem Directory View"
+    directory="Products.naked_plone:skins/Products_naked_plone_styles"/>
+
+ <skin-path name="Naked Plone Theme" based-on="Plone Default">
+  <layer name="Products_naked_plone_custom_images"
+     insert-after="custom"/>
+  <layer name="Products_naked_plone_custom_templates"
+     insert-after="Products_naked_plone_custom_images"/>
+  <layer name="Products_naked_plone_styles"
+     insert-after="Products_naked_plone_custom_templates"/>
+ </skin-path>
+
+</object>
