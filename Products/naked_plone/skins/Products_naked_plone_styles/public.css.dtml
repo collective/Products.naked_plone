@@ -7,7 +7,16 @@
 
 /* YOUR CSS RULES START HERE */
 
+/* Logo properties */
+
+#portal-logo img {
+    border: 0;
+    padding: 0;
+    margin: 1em 0em 1em 2em;
+}
+
 /* Site-wide action menu - font size, contact, index, sitemap etc */
+
 #portal-siteactions {
     background-color: transparent;
     white-space: nowrap;
@@ -42,7 +51,6 @@
     color: &dtml-globalFontColor;;
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
 }
-
 
 /* Searchbox style and positioning */
 

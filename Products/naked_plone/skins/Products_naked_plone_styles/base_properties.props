@@ -2,7 +2,7 @@ title:string=Naked Plone Theme's color, font, logo and border defaults
 
 plone_skin:string=Naked Plone Theme
 
-logoName:string=logo.jpg
+logoName:string=plone-logo-64.png
 
 fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
 fontBaseSize:string=69%
