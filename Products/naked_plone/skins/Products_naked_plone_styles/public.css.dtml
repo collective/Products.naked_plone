@@ -129,6 +129,25 @@
     color: &dtml-globalFontColor;;
 }
 
+/* Breadcrumbs */
+
+#portal-breadcrumbs {
+    /* The path bar, including breadcrumbs and add to favorites */
+    border-bottom-color: &dtml-globalBorderColor;;
+/*    border-bottom-style: &dtml-borderStyle;; */
+    border-bottom-width: &dtml-borderWidth;;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-transform: &dtml-textTransform;;
+    line-height: 1.6em;
+}
+#portal-breadcrumbs a {
+    text-decoration: none;
+}
+.breadcrumbSeparator {
+    font-size: 120%;
+}
+
 /* Tweaks */
 
 #portal-personaltools-wrapper { 
