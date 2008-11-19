@@ -1,8 +1,7 @@
 Changelog
 =========
 
-0.1 - Unreleased
+0.1 - Release
 ----------------
 
 * Initial release
-
