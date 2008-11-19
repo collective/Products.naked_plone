@@ -7,7 +7,19 @@
 
 /* YOUR CSS RULES START HERE */
 
+/* Searchbox style and positioning */
 
+#portal-searchbox {
+    float: right;
+    clear: right;
+    background-color: transparent;
+    margin: 1.5em 0 0 0;
+    padding: 0 2em 0 0;
+    text-align: right;
+    text-transform: &dtml-textTransform;;
+    white-space: nowrap;
+    z-index: 2;
+}
 
 /* YOUR CSS RULES STOP HERE */
 
