@@ -155,6 +155,12 @@
     margin-right: 40px;
 }
 
+/* Images */
+
+img { 
+    border: 0;
+}
+
 /* YOUR CSS RULES STOP HERE */
 
 /* </dtml-with> */
